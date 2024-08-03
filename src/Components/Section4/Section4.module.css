@@ -1,0 +1,30 @@
+.container {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .heading {
+    color: #006838;
+    font-weight: 700;
+    margin-bottom: 90px;
+    margin-top: 60px;
+  }
+  
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .card {
+    width: 18rem;
+    margin: 10px;
+    transition: transform 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  

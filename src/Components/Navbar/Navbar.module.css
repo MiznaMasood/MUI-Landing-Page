@@ -1,0 +1,48 @@
+.navbar-logo {
+    width: 250px !important; 
+    height: auto !important;
+    max-width: 100%; 
+    display: inline-block; 
+  }
+.navbar-items{
+
+ color: black;
+ background-color: aliceblue;
+
+ 
+
+
+}
+
+.navbar {
+    background-color: white; 
+   
+
+    top: 0;
+    width: 100%; 
+    z-index: 999; 
+    padding: 40px;
+   font-size: x-large;
+
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+
+
+
+    
+ 
+
+
+  
+  }
+  
+  .navbar-link {
+    color: black; /* Text color of the navigation links */
+  }
+  
+  .navbar-link:hover {
+    color: #0056b3; /* Change color on hover if desired */
+  }
+  
+  
